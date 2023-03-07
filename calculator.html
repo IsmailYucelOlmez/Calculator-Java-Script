@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">   
+</head>
+<body>
+    <div class="container">
+      
+      <div class="header">
+
+        <p class="calculator-header">Calculator App</p>
+        <input type="text" id="input-number">
+      
+      </div>
+
+      <div class="keys">
+
+        <div class="key" onclick="addText(this)"><p>7</p></div>
+        <div class="key" onclick="addText(this)"><p>8</p></div>
+        <div class="key" onclick="addText(this)"><p>9</p></div>
+        <div class="key aggregation-key" onclick="addText(this)"><p>+</p></div>
+        <div class="key" onclick="addText(this)"><p>4</p></div>
+        <div class="key" onclick="addText(this)"><p>5</p></div>
+        <div class="key" onclick="addText(this)"><p>6</p></div>
+        <div class="key subtraction-key" onclick="addText(this)"><p>-</p></div>
+        <div class="key" onclick="addText(this)"><p>1</p></div>
+        <div class="key" onclick="addText(this)"><p>2</p></div>
+        <div class="key" onclick="addText(this)"><p>3</p></div>
+        <div class="key division-key" onclick="addText(this)"><p>÷</p></div>
+        <div class="key" onclick="addText(this)"><p>0</p></div>
+        <div class="key" onclick="addText(this)"><p>.</p></div>
+        <div class="key clear"><p >C</p></div>
+        <div class="key multliplication-key" onclick="addText(this)"><p>X</p></div>
+        <div class="key square-root"><p >√x</p></div>
+        <div class="key square"><p>x²</p></div>
+        <div class="key clear-all"><p >CE</p></div>
+        <div class="key" onclick="showResult()"><p>=</p></div>
+
+      </div>
+
+
+
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
